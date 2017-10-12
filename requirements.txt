@@ -1,0 +1,4 @@
+numpy == 1.13.1
+telepot == 12.3
+selenium == 3.5.0
+icalendar == 3.11.7
