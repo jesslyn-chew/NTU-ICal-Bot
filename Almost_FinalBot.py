@@ -352,7 +352,7 @@ http://www.ntu.edu.sg/Students/Undergraduate/AcademicServices/AcademicCalendar/P
 def timetable_extract(Courseinput, chat_id_TE1):
     # Problem 1: driver not working (Issue of path of driver)
     # Run driver (on Chrome or by phantomJS)
-    driver = webdriver.Chrome()
+    driver = webdriver.PhantomJS()
     # Ensure that the driver is fully loaded
     driver.implicitly_wait(5)
     # Move to the NTU website for extraction of modules
